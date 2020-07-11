@@ -29,9 +29,11 @@ a:active {
     box-shadow: 0 8px 10px -6px rgba(0, 0, 0, 0.4);
     -moz-box-shadow: 0 8px 10px -6px rgba(0, 0, 0, 0.4);
     -webkit-box-shadow: 0 8px 10px -6px rgba(0, 0, 0, 0.4);
-    width: max-content;
+    width: auto;
     padding: 10px;
     overflow:hidden;
+    border-radius: 5px;
+    margin: 10px;
 }
 
 .box-head {
@@ -43,6 +45,62 @@ a:active {
 
 .box-body {
     padding: 10px;
+}
+
+.alert-warning {
+    box-shadow: 0 8px 10px -6px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0 8px 10px -6px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0 8px 10px -6px rgba(0, 0, 0, 0.4);
+    background-color: #FFFFFF;
+    border: 1px solid #fac423;
+    color: #fac423;
+    width: auto;
+    padding: 20px;
+    overflow:hidden;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.alert-success {
+    box-shadow: 0 8px 10px -6px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0 8px 10px -6px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0 8px 10px -6px rgba(0, 0, 0, 0.4);
+    background-color: #FFFFFF;
+    border: 1px solid #3ac932;
+    color: #3ac932;
+    width: auto;
+    padding: 20px;
+    overflow:hidden;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.alert-danger {
+    box-shadow: 0 8px 10px -6px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0 8px 10px -6px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0 8px 10px -6px rgba(0, 0, 0, 0.4);
+    background-color: #FFFFFF;
+    border: 1px solid #d42c46;
+    color: #d42c46;
+    width: auto;
+    padding: 20px;
+    overflow:hidden;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.alert-info {
+    box-shadow: 0 8px 10px -6px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0 8px 10px -6px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0 8px 10px -6px rgba(0, 0, 0, 0.4);
+    background-color: #FFFFFF;
+    border: 1px solid #12b6e3;
+    color: #12b6e3;
+    width: auto;
+    padding: 20px;
+    overflow:hidden;
+    border-radius: 5px;
+    margin: 10px;
 }
 
 /* ------------------------------------------------------------------------------------------------------------------ */
@@ -58,6 +116,7 @@ a:active {
     background-color: #FFFFFF;
     transition: 0.1s;
     color: #000000;
+    margin: 5px;
 }
 
 .btn-default:hover {
@@ -77,9 +136,10 @@ a:active {
     border-width: 1px;
     border-radius: 5px;
     border-color: #2e2e2e;
-    background-color: #2e2e2e;
-    transition: 0.1s;
-    color: #FFFFFF;
+    background-color: #FFFFFF;
+    color: #2e2e2e;
+    transition: 0.4s;
+    margin: 5px;
 }
 
 .btn-dark:hover {
@@ -88,7 +148,8 @@ a:active {
     border-width: 1px;
     border-radius: 5px;
     border-color: #121212;
-    background-color: #121212;
+    background-color: #2e2e2e;
+    color: #FFFFFF;
     box-shadow: 0 8px 10px -6px rgba(0, 0, 0, 0.4);
     -moz-box-shadow: 0 8px 10px -6px rgba(0, 0, 0, 0.4);
     -webkit-box-shadow: 0 8px 10px -6px rgba(0, 0, 0, 0.4);
@@ -101,9 +162,10 @@ a:active {
     border-width: 1px;
     border-radius: 5px;
     border-color: #3ac932;
-    background-color: #3ac932;
-    transition: 0.1s;
-    color: #FFFFFF;
+    background-color: #FFFFFF;
+    color: #2cbd26;
+    transition: 0.4s;
+    margin: 5px;
 }
 
 .btn-success:hover {
@@ -112,7 +174,8 @@ a:active {
     border-width: 1px;
     border-radius: 5px;
     border-color: #2cbd26;
-    background-color: #2cbd26;
+    background-color: #3ac932;
+    color: #FFFFFF;
     box-shadow: 0 8px 10px -6px rgba(0, 0, 0, 0.4);
     -moz-box-shadow: 0 8px 10px -6px rgba(0, 0, 0, 0.4);
     -webkit-box-shadow: 0 8px 10px -6px rgba(0, 0, 0, 0.4);
@@ -125,9 +188,10 @@ a:active {
     border-width: 1px;
     border-radius: 5px;
     border-color: #d42c46;
-    background-color: #d42c46;
-    transition: 0.1s;
-    color: #FFFFFF;
+    background-color: #FFFFFF;
+    color: #d42c46;
+    transition: 0.4s;
+    margin: 5px;
 }
 
 .btn-danger:hover {
@@ -136,7 +200,8 @@ a:active {
     border-width: 1px;
     border-radius: 5px;
     border-color: #bf283f;
-    background-color: #bf283f;
+    background-color: #d42c46;
+    color: #FFFFFF;
     box-shadow: 0 8px 10px -6px rgba(0, 0, 0, 0.4);
     -moz-box-shadow: 0 8px 10px -6px rgba(0, 0, 0, 0.4);
     -webkit-box-shadow: 0 8px 10px -6px rgba(0, 0, 0, 0.4);
@@ -149,9 +214,10 @@ a:active {
     border-width: 1px;
     border-radius: 5px;
     border-color: #fac423;
-    background-color: #fac423;
-    transition: 0.1s;
-    color: #000000;
+    background-color: #FFFFFF;
+    color: #fac423;
+    transition: 0.4s;
+    margin: 5px;
 }
 
 .btn-warning:hover {
@@ -160,7 +226,8 @@ a:active {
     border-width: 1px;
     border-radius: 5px;
     border-color: #f0bc22;
-    background-color: #f0bc22;
+    background-color: #fac423;
+    color: #000000;
     box-shadow: 0 8px 10px -6px rgba(0, 0, 0, 0.4);
     -moz-box-shadow: 0 8px 10px -6px rgba(0, 0, 0, 0.4);
     -webkit-box-shadow: 0 8px 10px -6px rgba(0, 0, 0, 0.4);
@@ -173,9 +240,10 @@ a:active {
     border-width: 1px;
     border-radius: 5px;
     border-color: #12b6e3;
-    background-color: #12b6e3;
-    transition: 0.1s;
-    color: #FFFFFF;
+    background-color: #FFFFFF;
+    color: #12b6e3;
+    transition: 0.4s;
+    margin: 5px;
 }
 
 .btn-info:hover {
@@ -184,7 +252,8 @@ a:active {
     border-width: 1px;
     border-radius: 5px;
     border-color: #11acd6;
-    background-color: #11acd6;
+    background-color: #12b6e3;
+    color: #FFFFFF;
     box-shadow: 0 8px 10px -6px rgba(0, 0, 0, 0.4);
     -moz-box-shadow: 0 8px 10px -6px rgba(0, 0, 0, 0.4);
     -webkit-box-shadow: 0 8px 10px -6px rgba(0, 0, 0, 0.4);
@@ -193,6 +262,7 @@ a:active {
 
 .link-btn {
     font-size: .85rem;
+    margin: 5px;
 }
 
 /* ------------------------------------------------------------------------------------------------------------------ */
